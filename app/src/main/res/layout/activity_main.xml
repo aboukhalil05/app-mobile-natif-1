@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Tous les activité"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGoAct2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Ouvrir Activité 2 (Boutons ancrés)" />
+
+    <Button
+        android:id="@+id/btnGoAct3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Ouvrir Activité 3 (Texte &amp; Clic)" />
+
+    <Button
+        android:id="@+id/btnGoAct4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ouvrir Activité 4 (Copie &amp; Compteur)" />
+
+    <Button
+        android:id="@+id/btnGoAct5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ouvrir Activité 5 (Calculatrice)" />
+
+    <Button
+        android:id="@+id/btnGoAct6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ouvrir Activité 6 (Application libre)" />
+
+    <Button
+        android:id="@+id/btnGoAnalyseTexte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ouvrir Analyse de texte" />
+
+    <Button
+        android:id="@+id/btnGoNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ouvrir Activité de Notifications" />
+
+</LinearLayout>

@@ -63,4 +63,17 @@
         android:layout_marginTop="16dp"
         android:text="Ouvrir Activité de Notifications" />
 
+    <Button
+        android:id="@+id/btnGoAct11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Activité 11 : Sons et Images" />
+
+    <Button
+        android:id="@+id/btnGoAct12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activité 12 : Liste des Animaux" />
+
 </LinearLayout>

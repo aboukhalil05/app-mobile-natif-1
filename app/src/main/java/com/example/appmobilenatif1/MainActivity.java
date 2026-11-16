@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         Button btnGoAct6 = findViewById(R.id.btnGoAct6);
         Button btnGoAnalyseTexte = findViewById(R.id.btnGoAnalyseTexte);
         Button btnGoNotification = findViewById(R.id.btnGoNotification);
+        Button btnGoAct11 = findViewById(R.id.btnGoAct11);
+        Button btnGoAct12 = findViewById(R.id.btnGoAct12);
 
 
         btnGoAct2.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, Activite2.class)));
@@ -28,5 +30,7 @@ public class MainActivity extends AppCompatActivity {
         btnGoAct6.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, Activite6.class)));
         btnGoAnalyseTexte.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, AnalyseTexteActivity.class)));
         btnGoNotification.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, NotificationActivity.class)));
+        btnGoAct11.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, MultimediaAct11Activity.class)));
+        btnGoAct12.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, AnimauxListeActivity.class)));
     }
 }
